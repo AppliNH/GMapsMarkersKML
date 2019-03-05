@@ -1,0 +1,31 @@
+.navigation
+{
+    list-style-type : none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;  
+}
+li
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+}
+#mainscreen
+{
+    height:auto;
+    width:auto;
+    display:flex;
+    flex-direction:row;
+}
+#map
+{  
+    border-style:solid;
+    border-color:red;
+    height:600px;
+    width:100%;
+    
+}
