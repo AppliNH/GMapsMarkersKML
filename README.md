@@ -5,4 +5,6 @@ Your just have to add your APIKEY in the head of the file, as well as the link t
 
 I'm using JQUERY/Javascript/HTML/CSS 
 
-(focused on functionnalities, not design/frontend)
+
+
+(focused on making it work, not design/frontend)
