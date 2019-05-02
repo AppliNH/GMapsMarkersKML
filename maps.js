@@ -12,7 +12,7 @@ var ident = 0;
 
 // you get this URL by exporting your MyMaps in .kml and by checking the box ".KML with network link"
 var kmlURL = "http://www.google.com/maps/d/kml?forcekml=1&mid=1pnMJVDQtbF8wrWycWhdfGtiVLnEHtSh0"; //paste yours !
-
+var FinalKMLURL = "https://cors-anywhere.herokuapp.com/"+kmlURL
 //just something to start with when we want to generate our "View on maps" link in infowindow
 var StartMPLINK = 'https://www.google.com/maps/place/';
 
@@ -67,7 +67,7 @@ $(document).ready(function(){
 
     // alows us to get into the file, which is originally kml.kml but I renamed kml.xml
     // cause kml format is close to xml, and that's with this idea that we fetch it
-    $.get(kmlURL, function(data){
+    $.get(FinalKMLURL, function(data){
 
         html = "";
 
