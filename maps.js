@@ -11,7 +11,7 @@ var activeWindowList;
 var ident = 0;
 
 // you get this URL by exporting your MyMaps in .kml and by checking the box ".KML with network link"
-var kmlURL = "http://www.google.com/maps/d/kml?forcekml=1&mid=1pnMJVDQtbF8wrWycWhdfGtiVLnEHtSh0"; //paste yours !
+var kmlURL = "https://www.google.com/maps/d/kml?forcekml=1&mid=1pnMJVDQtbF8wrWycWhdfGtiVLnEHtSh0"; //paste yours !
 
 //just something to start with when we want to generate our "View on maps" link in infowindow
 var StartMPLINK = 'http://www.google.com/maps/place/';
